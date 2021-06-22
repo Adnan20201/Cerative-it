@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+}
+.clear-fix{
+    clear: both;
+}
+
+#header{
+    padding: 15px 0;
+}
+
+#header .container .logo{
+    width:30%;
+    float: left;
+}
+#header .container .contact-info{
+    width: 50%;
+    float: right;
+    margin-top: 1px;
+  
+}
+#header .contact-info .contact-item{
+    margin: 0 10px;
+    float: left;
+}
+#header .contact-info .contact-item 
+.contact-icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: #EE2E24;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#header .contact-info .contact-item 
+.contact-text{
+    float: left;
+    width: auto;
+    margin-left: 20px;
+} 
+#header .contact-info .contact-item 
+.contact-text p{
+    padding: 5px 0;
+}
+#navber{
+    background: red;
+}
+#navber ul{
+    list-style-type: none;
+}
+#navber ul li{
+    display: inline-block;
+}
+#navber ul li a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+#slider img{
+    width: 100%;
+}
+#banner .adBannerItem{
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+#banner .adBannerItem h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    padding-top: 20px;
+    color: #444;
+}
